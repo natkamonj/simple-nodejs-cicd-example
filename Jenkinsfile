@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    VERCEL_PROJECT_NAME = 'learn-jenkins-app'
+    VERCEL_PROJECT_NAME = 'simple-nodejs'
     VERCEL_TOKEN = credentials('DevOps08-simple-nodejs') // ดึงจาก Jenkins
   }
   agent {
